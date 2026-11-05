@@ -1,0 +1,14 @@
+ساخت آنلاین APK بدون نصب Android Studio
+
+1) به https://github.com بروید و وارد حساب شوید.
+2) روی New repository کلیک کنید.
+3) نام repository را WK-Calculator بگذارید و Create repository را بزنید.
+4) در repository روی Add file > Upload files بزنید.
+5) تمام محتویات این پوشه را (از جمله پوشه .github) آپلود کنید؛ خود فایل ZIP را آپلود نکنید.
+6) پایین صفحه Commit changes را بزنید.
+7) به زبانه Actions بروید و workflow با نام Build WK Calculator APK را باز کنید.
+8) اگر اجرا خودکار نشد، Run workflow را بزنید.
+9) پس از پایان موفق، وارد اجرای سبز/موفق شوید و از بخش Artifacts فایل WK-Calculator-app-debug را دانلود کنید.
+10) ZIP دانلودشده را باز کنید؛ فایل app-debug.apk داخل آن است. آن را به موبایل منتقل و نصب کنید.
+
+نکته: مخزن را Public بسازید تا در پلن رایگان GitHub استفاده از runner استاندارد هزینه دقیقه‌ای نداشته باشد. اگر Private می‌سازید، محدودیت دقیقه‌های رایگان ممکن است اعمال شود.

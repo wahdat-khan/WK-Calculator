@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/wk_background"
+            android:gravity="centerCrop" />
+    </item>
+    <item android:drawable="@color/wk_background_tint" />
+</layer-list>
